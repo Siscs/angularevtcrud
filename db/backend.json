@@ -1,0 +1,137 @@
+{
+    "categoria": [
+        { "id": 1, "descricao": "C#" },
+        { "id": 2, "descricao": "C / C++" },
+        { "id": 3, "descricao": "VB" },
+        { "id": 4, "descricao": "Javascript (JS)" },
+        { "id": 5, "descricao": "Angular" },
+        { "id": 6, "descricao": "Sql / t-sql / Pl-Sql" },
+        { "id": 7, "descricao": "ADVPL" },
+        { "id": 8, "descricao": "Dart" }
+    ],
+    "instituicao": [
+        { "id": 1, "nome": "Udemy" },
+        { "id": 2, "nome": "Youtube" },
+        { "id": 3, "nome": "Desenvolvedor.io" },
+        { "id": 4, "nome": "Balta.IO" },
+        { "id": 5, "nome": "Outros" }
+    ],
+    "curso": [
+        { 
+            "id": 1, 
+            "nome": "Curso de C#",
+            "descricao": "Curso de linguagem .NET C# avançado",
+            "valor": 150.00, 
+            "duracao": 15, 
+            "dataInicio": "2020-07-26T00:00:00", 
+            "dataFim": "2020-07-30T00:00:00", 
+            "concluido": true,
+            "imagem": "../../../assets/cursos/certificado.png",
+            "instituicaoId": 2, 
+            "categoriaId": 1 
+        },
+        { 
+            "id": 2, 
+            "nome": "API REST", 
+            "descricao": "Curso de criação de API REST com .net c# em camadas",
+            "valor": 220.50, 
+            "duracao": 13, 
+            "dataInicio": "2020-05-10T00:00:00", 
+            "dataFim": "2020-05-15T00:00:00", 
+            "concluido": true,
+            "imagem": "../../../assets/cursos/diploma.jpeg",
+            "instituicaoId": 3, 
+            "categoriaId": 1
+        },
+        { 
+            "id": 3, 
+            "nome": "Curso de CSS", 
+            "descricao": "Curso de design de paginas e estilos com CSS",
+            "valor": 100.00, 
+            "duracao": 5, 
+            "dataInicio": "2020-06-05T00:00:00", 
+            "dataFim": "2020-06-08T00:00:00", 
+            "concluido": true,
+            "imagem": "../../../assets/cursos/livro.png",
+            "instituicaoId": 2, 
+            "categoriaId": 1 
+        },
+        { 
+            "id": 4, 
+            "nome": "Curso avançado de Angular", 
+            "descricao": "O Curso aborda técnicas avançadas de utilização de componentes com angular, rotas e módulos",
+            "valor": 250.00, 
+            "duracao": 20, 
+            "dataInicio": "2020-08-01T00:00:00", 
+            "dataFim": "2019-10-12T00:00:00", 
+            "concluido": false,
+            "imagem": "../../../assets/cursos/chapeu1.jpeg",
+            "instituicaoId": 3, 
+            "categoriaId": 1 
+        },
+        { 
+            "id": 5, 
+            "nome": "Curso de Javascript", 
+            "descricao": "Este curso apresenta a programação em javascript desde o básico usando js vanilla até padroẽs ECMASCRIPT",
+            "valor": 80.00, 
+            "duracao": 22, 
+            "dataInicio": "2019-02-14T00:00:00", 
+            "dataFim": "2019-08-29T00:00:00", 
+            "concluido": true,
+            "imagem": "../../../assets/cursos/quadro.png",
+            "instituicaoId": 5, 
+            "categoriaId": 4 
+        }
+    ],
+    "tarefas" : [
+        {
+            "id": 1,
+            "descricao": "Comprar cursos api/angular",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 2,
+            "descricao": "Curso Angular avançado",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 3,
+            "descricao": "Curso de RabbitMQ",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 4,
+            "descricao": "Curso Redis",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 5,
+            "descricao": "Curso Enterprise Applications",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 6,
+            "descricao": "Curso de MVC Core",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 7,
+            "descricao": "Curso CSS grid layout",
+            "iniciada": false,
+            "finalizada": false
+        },
+        {
+            "id": 8,
+            "descricao": "Curso Azure Serverless",
+            "iniciada": false,
+            "finalizada": false
+        }
+    ]
+
+}
