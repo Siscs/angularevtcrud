@@ -1,23 +1,25 @@
-<h3>
-    <ng-content></ng-content>
-</h3>
-<table class="table table-striped">
-    <tbody>
-        <tr *ngFor="let tarefa of tarefas; index as i">
-            <td>
-                <span>{{ tarefa.descricao }}</span>
+<div class="task-list">
+    <h3>
+        <ng-content></ng-content>
+    </h3>
+    <table class="table table-striped">
+        <tbody>
+            <tr *ngFor="let tarefa of listaTarefas; index as i">
+                <td>
+                    <span>{{ tarefa.descricao }}</span>
 
-                <!-- <span *ngIf="!item.finalizado && item.iniciado" class="task-list__finalizado" (click)="toggleItem(i, 'finalizar')"></span>
-                <span *ngIf="!item.finalizado && !item.iniciado" class="task-list__iniciado" (click)="toggleItem(i, 'iniciar')"></span>
-                <span *ngIf="item.finalizado && !item.iniciado" class="task-list__retroceder" (click)="toggleItem(i, 'retomar')"></span>
-                <span *ngIf="!item.finalizado && item.iniciado" class="task-list__retroceder" (click)="toggleItem(i, 'cancelar')"></span> -->
+                    <span *ngIf="!tarefa.finalizada && tarefa.iniciada" class="task-list__finalizado" (click)="toggleItem(i, 'finalizar')"></span>
+                    <span *ngIf="!tarefa.finalizada && !tarefa.iniciada" class="task-list__iniciado" (click)="toggleItem(i, 'iniciar')"></span>
+                    <span *ngIf="tarefa.finalizada && !tarefa.iniciada" class="task-list__retroceder" (click)="toggleItem(i, 'retomar')"></span>
+                    <span *ngIf="!tarefa.finalizada && tarefa.iniciada" class="task-list__retroceder" (click)="toggleItem(i, 'cancelar')"></span>
 
-                <span class="task-list__finalizado" (click)="toggleItem(i, 'finalizar')"></span>
-                <span class="task-list__iniciado" (click)="toggleItem(i, 'iniciar')"></span>
-                <span class="task-list__retroceder" (click)="toggleItem(i, 'retomar')"></span>
-                <span class="task-list__retroceder" (click)="toggleItem(i, 'cancelar')"></span>
-            </td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
+                    <!-- <span class="task-list__finalizado" (click)="toggleItem(i, 'finalizar')">1</span>
+                    <span class="task-list__iniciado" (click)="toggleItem(i, 'iniciar')">2</span>
+                    <span class="task-list__retroceder" (click)="toggleItem(i, 'retomar')">3</span>
+                    <span class="task-list__retroceder" (click)="toggleItem(i, 'cancelar')">4</span> -->
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

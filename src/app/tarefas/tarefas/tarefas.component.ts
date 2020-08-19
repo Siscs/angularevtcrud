@@ -10,6 +10,7 @@ export class TarefasComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

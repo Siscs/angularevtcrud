@@ -88,12 +88,12 @@
             "id": 1,
             "descricao": "Comprar cursos api/angular",
             "iniciada": false,
-            "finalizada": false
+            "finalizada": true
         },
         {
             "id": 2,
             "descricao": "Curso Angular avançado",
-            "iniciada": false,
+            "iniciada": true,
             "finalizada": false
         },
         {
